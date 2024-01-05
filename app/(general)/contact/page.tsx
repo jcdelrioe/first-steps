@@ -7,7 +7,11 @@ export const metadata: Metadata = {
 }
 
 const ContactPage = () => {
-  return <div className="text-5xl">ContactPage</div>
+  return (
+    <main className="flex flex-col items-center p-24">
+      <span className="text-7xl">ContactPage</span>
+    </main>
+  )
 }
 
 export default ContactPage
